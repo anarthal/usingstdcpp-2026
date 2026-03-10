@@ -1,0 +1,4 @@
+
+add_executable(01_import_std import_std.cpp)
+target_compile_features(01_import_std PUBLIC cxx_std_23)
+set_target_properties(01_import_std PROPERTIES CXX_MODULE_STD ON)
