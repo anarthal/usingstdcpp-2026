@@ -1,0 +1,3 @@
+add_executable(build_times_ranges build_times_ranges.cpp)
+target_compile_features(build_times_ranges PUBLIC cxx_std_23)
+target_compile_options(build_times_ranges PRIVATE -ftime-trace)
