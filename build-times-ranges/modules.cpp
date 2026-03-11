@@ -1,8 +1,5 @@
 
-#include <algorithm>
-#include <print>
-#include <ranges>
-#include <vector>
+import std;
 
 namespace views = std::views;
 namespace ranges = std::ranges;
